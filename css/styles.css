@@ -1,0 +1,151 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+    background: #F5F5F5;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+
+.logo-web{
+font-family: 'Raleway',sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+color: #2196F3;
+}
+
+.logo-studio{
+    font-family: 'Raleway',sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+color: #000000;
+}
+.nav{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+}
+.contact-mail{
+position: absolute;
+width: 135px;
+height: 16px;
+left: 1078px;
+top: 32px;
+}
+.contact-phone {
+position: absolute;
+width: 122px;
+height: 16px;
+left: 1263px;
+top: 32px;
+}
+
+.main-title{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.button{
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+.subtitle-item{
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-transform: uppercase;
+color: #212121;
+}
+
+.subtitle-desc{
+font-size: 14px;
+line-height: 1.71;
+color: #757575;
+}
+
+.work, .team {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+color: #212121;
+}
+
+.team-name{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+color: #212121;
+}
+
+.team-desc{
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+color: #757575;
+}
+
+.contact-address{
+    font-size: 14px;
+    line-height: 1.71;
+    color: #FFFFFF;
+
+}
+
+.footer-contact{
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+/* Portfolio*/
+
+.portfolio-title{
+cursor: pointer;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+color: #212121;
+}
+
+.portfolio-pagination-all {
+    color: #FFFFFF;
+}
+
+.portfolio-mane {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.portfolio-class {
+font-size: 16px;
+line-height: 1.88;
+color: #757575;
+
+}
