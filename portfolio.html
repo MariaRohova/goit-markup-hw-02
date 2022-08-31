@@ -9,7 +9,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./portfolio.html">
 </head>
 <body>
 <!--Header-->
@@ -19,34 +18,34 @@
         <a href="./index.html" class="logo-web">Web<span class="logo-studio">Studio</span> </a>
         
         <ul class="nav">
-           <li class="nav-list"> Студія<a href="./index.html" Студія></a>         </li>
-           <li class="nav-list"> Портфоліо<a href="./portfolio.html" Портфоліо></a>         </li>
-           <li class="nav-list"> Контакти<a href="" Контакти></a>         </li>
+            <li class="nav-list">  <a href="./index.html" >Студія</a>         </li>
+            <li class="nav-list">  <a href="./portfolio.html"> Портфоліо</a>         </li>
+            <li class="nav-list">  <a href=""> Контакти</a>         </li>
        </ul>
 
     </nav>
-    <ul>
+
+    <ul class="contacts">
         <li> <a href="mailto:info@devstudio.com" class="contact-mail"> info@devstudio.com</a> </li>                    
         <li> <a href="tell:+380961111111" class="contact-phone"> +38 096 111 11 11 </a>        </li>
     </ul>
 
-        
+  
     
 </header>
 
     <main>
         <section class="portfolio-list">
             <h1 class="portfolio-title"> Портфоліо </h1>
-            <button class="portfolio-pagination-all" type="button" onclick=""> Усі </button>
-            <button class="portfolio-pagination" type="button" onclick=""> Веб-сайти </button>
-            <button class="portfolio-pagination" type="button" onclick=""> Додатки </button>
-            <button class="portfolio-pagination" type="button" onclick=""> Дизайн </button>
-            <button class="portfolio-pagination" type="button" onclick=""> Маркетинг </button>
+            <ul class="portfolio-button">
+                <li><button class="portfolio-pagination-all" type="button" onclick=""> Усі </button></li>
+                <li><button class="portfolio-pagination" type="button" onclick=""> Веб-сайти </button></li>
+                <li><button class="portfolio-pagination" type="button" onclick=""> Додатки </button></li>
+                <li><button class="portfolio-pagination" type="button" onclick=""> Дизайн </button></li>
+                <li><button class="portfolio-pagination" type="button" onclick=""> Маркетинг </button></li>
+            </ul>
 
-        </section>
-
-        <section class="portfolio-item">
-            <ul>
+            <ul class="portfolio-works">
                 <li>
                     <img class="portfolio-img" src="./img/img.jpg" alt="Технокряк" width="370">
                     <h2 class="portfolio-mane">Технокряк</h2>
@@ -104,13 +103,14 @@
         <div class="footer">
             <a href="./index.html" class="logo-web">Web<span class="logo-studio">Studio</span> </a>
         
-                <address class="address">
-                    <p class="contact-address"> м. Київ, пр-т Лесі Українки, 26</p>
-                    <ul>
-                        <li> <a href="mailto:info@devstudio.com" class="footer-contact"> info@devstudio.com</a> </li>                    
-                        <li> <a href="tell:+380961111111" class="footer-contact"> +38 096 111 11 11 </a>        </li>
-                    </ul>
-                </address> 
+            <address class="address">
+                <p class="contact-address"> м. Київ, пр-т Лесі Українки, 26</p>
+                <ul class="footer-contact">
+                    <li> <a href="mailto:info@devstudio.com" class="footer-contact-list"> info@devstudio.com</a> </li>                    
+                    <li> <a href="tell:+380961111111" class="footer-contact-list"> +38 096 111 11 11 </a>        </li>
+                </ul>
+            </address>    
+
         
     </div>
     </footer>

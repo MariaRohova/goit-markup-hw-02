@@ -6,6 +6,7 @@ body
     font-weight: 400;
     letter-spacing: 0.03em;
     color: #212121;
+    
 }
 
 
@@ -18,30 +19,39 @@ color: #2196F3;
 }
 
 .logo-studio{
-    font-family: 'Raleway',sans-serif;
+font-family: 'Raleway',sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 color: #000000;
 }
+
 .nav{
+list-style: none;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: #212121;
 }
-.contact-mail{
-position: absolute;
-width: 135px;
-height: 16px;
+
+.nav-list{
+    text-decoration: none;
 }
 
-.contact-phone {
-position: absolute;
-width: 122px;
-height: 16px;
+.contacts{
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
+
+.contact-mail, .contact-phone{
+    text-decoration: none; 
+}
+
 
 .hero-title{
 font-weight: 900;
@@ -54,6 +64,7 @@ color: #FFFFFF;
 }
 
 .button{
+    font-family: inherit;
     cursor: pointer;
     font-weight: 700;
     font-size: 16px;
@@ -63,6 +74,9 @@ color: #FFFFFF;
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+}
+.subtitle-list{
+    list-style: none;
 }
 
 .subtitle-item{
@@ -87,6 +101,10 @@ text-align: center;
 color: #212121;
 }
 
+.work-list, .team-list{
+    list-style: none;
+}
+
 .team-name{
 font-weight: 500;
 font-size: 16px;
@@ -102,6 +120,11 @@ text-align: center;
 color: #757575;
 }
 
+.address{
+    font-style: normal;
+    background-color:#2F303A;
+}
+
 .contact-address{
     font-size: 14px;
     line-height: 1.71;
@@ -110,8 +133,17 @@ color: #757575;
 }
 
 .footer-contact{
+    list-style: none;    
+
+}
+
+.footer-contact-list{
+    font-style: normal;
+    text-decoration: none;
     font-size: 14px;
     line-height: 1.71;
+    font-weight: 400;
+    letter-spacing: inherit;
     color: rgba(255, 255, 255, 0.6);
 }
 
@@ -126,6 +158,10 @@ font-size: 16px;
 line-height: 1.62;
 text-align: center;
 color: #212121;
+}
+
+.portfolio-button, .portfolio-works{
+    list-style: none;  
 }
 
 .portfolio-pagination-all {
