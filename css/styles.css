@@ -11,6 +11,7 @@ body
 
 
 .logo-web{
+text-decoration: none;
 font-family: 'Raleway',sans-serif;
 font-weight: 700;
 font-size: 26px;
@@ -19,6 +20,7 @@ color: #2196F3;
 }
 
 .logo-studio{
+text-decoration: none;
 font-family: 'Raleway',sans-serif;
 font-weight: 700;
 font-size: 26px;
@@ -35,7 +37,8 @@ letter-spacing: 0.02em;
 color: #212121;
 }
 
-.nav-list{
+.nav-link{
+    color: #212121;
     text-decoration: none;
 }
 
@@ -43,6 +46,7 @@ color: #212121;
     list-style: none;
     font-style: normal;
     text-decoration: none;
+    font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -51,7 +55,17 @@ color: #212121;
 .contact-mail, .contact-phone{
     text-decoration: none; 
 }
+.contact-mail{
+color: #2196F3;
+}
 
+.contact-phone{
+color: #757575; 
+}
+
+.hero{
+background-color: #2F303A;
+}
 
 .hero-title{
 font-weight: 900;
@@ -114,6 +128,7 @@ color: #212121;
 }
 
 .team-desc{
+font-weight: 400px;
 font-size: 16px;
 line-height: 1.18;
 text-align: center;
@@ -164,8 +179,23 @@ color: #212121;
     list-style: none;  
 }
 
-.portfolio-pagination-all {
-    color: #FFFFFF;
+.portfolio-pagination-1,.portfolio-pagination {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.portfolio-pagination-1 {
+color: #FFFFFF;
+background-color:#2196F3;
+} 
+
+.portfolio-pagination{
+color: #212121;
 }
 
 .portfolio-mane {
